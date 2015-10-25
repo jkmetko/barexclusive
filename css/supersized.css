@@ -1,0 +1,32 @@
+/*
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version 3.1.3
+	www.buildinternet.com/project/supersized
+	
+	By Sam Dunn / One Mighty Roar (www.onemightyroar.com)
+	Released under MIT License / GPL License
+*/
+
+* { margin:0; padding:0; }
+body { background:#111; }
+	img{ border:none; }
+	
+	#supersized-loader { position:absolute; top:50%; left:50%; z-index:10; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background-color:#111; background:rgba(0,0,0,0.8) url(../img/progress.gif) no-repeat center center; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+	
+	#supersized { position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+		#supersized img{ width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
+			#supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; }	/*Speed*/
+			#supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }			/*Quality*/
+		
+		#supersized a { z-index:-30; position:absolute; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111;}
+			#supersized a.prevslide { z-index:-20; }
+			#supersized a.activeslide { z-index:-10; }
+			#supersized a.prevslide img, #supersized a.activeslide img{ display:inline; }
+	
+	/*Controls Section*/
+	#controls-wrapper { margin:0 ; height:35px;  bottom:70px; left:30px; z-index:4;position:fixed; width:250px;}
+		#controls { overflow:hidden; height:100%; text-align:left; z-index:5;  background: url(../img/bg_black_70.png) repeat; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px; margin-bottom:10px ; }
+			#slidecounter { float:left; color:#fff; margin:8px 8px 0 10px;  }
+			#slidecaption { float:left; color:#ccc; margin:8px 8px 0 0;  }
+			#navigation { float:left; cursor:pointer; }
+	

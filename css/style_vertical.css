@@ -1,0 +1,32 @@
+
+body {
+	overflow:hidden;
+}
+.section{
+    margin: 0px;
+    height:4000px;
+    width:100%;
+    float:left;
+	padding-top:120px;
+}
+ul.nav {
+    list-style:none;
+	position: absolute;
+	width:860; height:45px;
+	bottom: -50px;
+	right:0;
+}
+ul.nav li {
+	float:left;
+	background:url(../img/circle.png) no-repeat center center;padding:10px 15px;
+}
+ul.nav li a {
+	text-decoration:none;
+	color:#999;
+	
+}
+ul.nav li a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
