@@ -253,9 +253,8 @@ ul.my_menu div#partnery ul.last {
 	-moz-border-radius:5px;
 	border-radius:5px;
 	padding:5px;
-	width:960px;
-	left: 50%;
-	margin: 0 0 0 -480px;
+	width:100%;
+
 }
 #content_wrapper_home_2 {
 	background:url(../img/bg_black_85.png) repeat;
@@ -313,7 +312,7 @@ ul#boxes_home {
 ul#boxes_home li {
 	width:280px;
 	height:150px;
-	margin:0 30px 0 0;
+	margin:0 30px 20px 0;
 	float:left;
 }
 .project {
@@ -368,7 +367,7 @@ ul#boxes_home li {
 	font-size:14px;
 	display:block;
 	width:257px;
-	margin:0x;
+	margin:0px;
 	position:relative;
 }
 #content_wrapper_home_2 ul li h2 a {
@@ -391,14 +390,16 @@ ul#boxes_home li {
 	left:0;
 }
 .one_third_col_home {
-	width:249px;
+	max-width:250px;
+	width:auto;
 	float:left;
 	border-left:1px solid #1c1c1c;
 	padding-left:30px;
 	margin-top:40px;
 }
 .two_third_col_home {
-	width:559px;
+	max-width:550px;
+	width:auto;
 	float:left;
 	border-left:1px solid #1c1c1c;
 	padding:0 30px 0 30px;
@@ -761,4 +762,29 @@ ul#contact_info li {
 }
 #contact_info li#web {
 	background: url(../img/icon_web.png) no-repeat right 5px;
+}
+
+
+/* NOVE CSS */
+
+.container {
+	width: 960px;
+	margin:0 auto;
+
+}
+
+@media screen and (max-width: 960px) {
+	.container {
+		padding:0px;
+		width: 100%;
+		margin:0;
+	}
+}
+
+.horizontal-line {
+	padding:0px;
+	display: block;
+	height: 1px;
+	background-color: white;
+	margin: 5px 0;
 }
