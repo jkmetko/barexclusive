@@ -1,0 +1,49 @@
+@media (max-width: 768px){
+    #navbar{
+        display: none;
+    }
+
+    #navbar-mobile{
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    #navbar-mobile {
+        display: none;
+    }
+}
+/***** menu toggle button  ********/
+/**********************************/
+.navbar-inverse .navbar-toggle{
+    background-color: #333333;
+    border-color: #333333;
+}
+/*****  MENU COLLAPSE  ********/
+/******************************/
+
+.navbar-collapse.collapse.in>ul>li>a{
+    width:100%;
+}
+.navbar-collapse.collapse.in{
+    margin-top:35px;
+    border-color:transparent;
+}
+.navbar-collapse.collapse.in>ul>li>ul{
+    background-color: white;
+    min-width:50px;
+    width:100%;
+    margin-left:0px;
+    margin-top: -20px;
+    padding-left:20px;
+
+}
+.navbar-collapse.collapse.in>ul>li>ul>div>div>h3{
+    font-size:14px;
+}
+.navbar-collapse.collapse.in>ul>li>ul>div>div>div>div>h3{
+    font-size:14px;
+}
+.navbar-collapse{
+    padding:0px;
+}
