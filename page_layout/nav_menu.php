@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Starter Template for Bootstrap</title>
-    <!--
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    -->
-    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
-
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="css/master-nav.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reset.css">
-    <link rel="stylesheet" type="text/css" href="css/content-wraper.css">
-
-</head>
-
-<body>
-
 <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="header_line"></div>
@@ -33,8 +8,8 @@
         <!--.nav -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
+                <li><a href="index.php">Home</a></li>
+                <li class="dropdown"><a href="#">Portfolio</a>
 
                     <ul class="dropdown-menu portfolio">
                         <div class="row">
@@ -174,7 +149,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.html"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo"/></a>
+            <a href="index.php"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo"/></a>
         </div>
 
         <!--/.nav-collapse MOBILE-->
@@ -306,97 +281,3 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-
-
-<div class="container">
-    <div class="content_wrapper_home">
-        <p><img src="img/logo2.png" style="position: relative; left: 15px; top: 5px" class="img-responsive"> <br/><br/>
-        </p>
-
-        <div class="home_content">
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a href="about_mixology.html">
-                        <img src="img/img_home_1.jpg" class="img-responsive" alt=""/>
-                    </a>
-
-                    <div class="pr_line" class="img-responsive"></div>
-                    <h2><a href="flip_gallery.html" class="image-subtitle">Mixology</a></h2>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-
-                    <a href="about_prenosnybar.html">
-
-                        <img src="img/img_home_2.jpg" class="img-responsive" alt=""/>
-                    </a>
-
-                    <div class="pr_line" class="img-responsive"></div>
-                    <h2><a href="gallery_thumb_nav.html" class="image-subtitle">Portable Bar</a></h2>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-
-                    <a href="about_flairshow.html">
-                        <img src="img/img_home_3.jpg" class="img-responsive" alt=""/>
-                    </a>
-
-                    <div class="pr_line" class="img-responsive"></div>
-                    <h2><a href="gallery_supersize.html" class="image-subtitle">Flair Show</a></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                    <div class="home-vertical-line-p">
-                        <h3>O BarExclusive</h3>
-
-                        <p>BarExclusive reprezentuje luxus. Ide o značku zastrešujúcu portfólio služieb - či už
-                            komplexné
-                            riešenia
-                            pre barovú scénu, alebo produkty, ktoré ozvláštnia firemné i súkromné akcie a oslavy.
-                            <span class="horizontal-line"></span>
-
-                            Ponúkame možnosť prenájmu prenosného baru, so všetkým, čo k tomu patrí. Od zabezpečenia
-                            dopravy
-                            a
-                            zloženia baru, cez zostavenie individuálneho nápojového lístka (s mixologickými
-                            špecialitami),
-                            až po
-                            dosadenie profesionálnych barmanov a hostesiek.</p>
-
-                        <p><a href="about_barex.html" class="details">Čítaj viac <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></p>
-                    </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <div class="home-vertical-line-p">
-                        <h3>Mixológia</h3>
-
-                        <p>Mixologia spaja vedecky pristup k ingredienciam na molekulárnej úrovni s dlhodobymi
-                            skusenostami
-                            barmana.
-                            Remeslo sa tak znovu povyšuje na umenie.</p>
-
-                        <p><a href="about_mixology.html" >Čítaj viac <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></p>
-
-                    </div>
-                </div>
-            </div>
-
-
-        </div><!-- /end home_content-->
-    </div><!-- /end ontent_wrapper_home-->
-</div><!-- /end container-->
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
--->
-<script src="bootstrap/jquery.min.js"></script>
-<script src="bootstrap/bootstrap.min.js"></script>
-
-<script src="js/starter-template.js"></script>
-
-</body>
-</html>

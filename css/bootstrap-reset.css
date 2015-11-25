@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media (max-width: 767px){
     #navbar{
         display: none;
     }
@@ -6,13 +6,37 @@
     #navbar-mobile{
         display: block;
     }
+    .body_content{
+        padding:0px;
+    }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     #navbar-mobile {
         display: none;
     }
+
 }
+
+@media (max-width: 500px) {
+    .col-custom-img{
+        width:50%;
+    }
+    .col-custom-text{
+        width:100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .col-custom-img{
+        width:100%;
+    }
+    .container{
+        min-width:265px;
+    }
+}
+
+
 /***** menu toggle button  ********/
 /**********************************/
 .navbar-inverse .navbar-toggle{
@@ -22,28 +46,28 @@
 /*****  MENU COLLAPSE  ********/
 /******************************/
 
-.navbar-collapse.collapse.in>ul>li>a{
+#navbar-mobile-collapse>ul>li>a{
     width:100%;
 }
-.navbar-collapse.collapse.in{
+#navbar-mobile-collapse{
     margin-top:35px;
     border-color:transparent;
 }
-.navbar-collapse.collapse.in>ul>li>ul{
+#navbar-mobile-collapse>ul>li>ul{
     background-color: white;
     min-width:50px;
     width:100%;
     margin-left:0px;
-    margin-top: -20px;
+    margin-top: -10px;
     padding-left:20px;
 
 }
-.navbar-collapse.collapse.in>ul>li>ul>div>div>h3{
+#navbar-mobile-collapse>ul>li>ul>div>div>h3{
     font-size:14px;
 }
-.navbar-collapse.collapse.in>ul>li>ul>div>div>div>div>h3{
+#navbar-mobile-collapse>ul>li>ul>div>div>div>div>h3{
     font-size:14px;
 }
-.navbar-collapse{
+#navbar-mobile-collapse{
     padding:0px;
 }

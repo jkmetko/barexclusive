@@ -4,7 +4,7 @@
 $(document).ready(function() {
     function HoverNavMethod() {
 
-        if ($(window).width() > 993) {
+        if ($(window).width() > 767) {
 
             $('ul.nav li.dropdown').hover(function () {
                 $(this).find('.dropdown-menu').stop(true, true).delay(80).fadeIn(400);
@@ -27,4 +27,5 @@ $(document).ready(function() {
     $(window).resize(HoverNavMethod);
 
 });
+
 
