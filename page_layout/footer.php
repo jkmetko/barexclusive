@@ -8,6 +8,9 @@
 -->
 <script src="bootstrap/jquery.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>
+<script src="bootstrap_image_gallery/bootstrap-image-gallery.js"></script>
+<script src="bootstrap_image_gallery/bootstrap-image-gallery.min.js"></script>
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 
 <script src="js/custom.js"></script>
 

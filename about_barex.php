@@ -31,28 +31,38 @@
                         </p>
                     </div>
 
-
-                    <ul class="media-list">
-                        <li ><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Prenosný bar</li>
-                        <li ><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Zostavenie nápojového lístku</li>
-                        <li ><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Flair show</li>
-                        <li ><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Fire show</li>
-                        <li ><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Prenájom priestorov (vrátane plážových)</li>
-                    </ul>
-                    <span class="horizontal-line"></span>
-                    <span class="highlight">Zostavenie nápojového lístka a poskytnutie profesionálnych barmanov, Flairshow, či Fireshow ponúkame aj podnikom, s možnosťou dlhodobej spolupráce.</span>
-                    <span class="horizontal-line"></span>
-
+                    <div class="row">
+                        <ul class="media-list">
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Prenosný bar
+                            </li>
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Zostavenie
+                                nápojového lístku
+                            </li>
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Flair show
+                            </li>
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Fire show
+                            </li>
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Prenájom
+                                priestorov (vrátane plážových)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <span class="horizontal-line"></span>
+                        <span class="highlight">Zostavenie nápojového lístka a poskytnutie profesionálnych barmanov, Flairshow, či Fireshow ponúkame aj podnikom, s možnosťou dlhodobej spolupráce.</span>
+                        <span class="horizontal-line"></span>
+                    </div>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
-                        <div class="vertical-line-p our_team media col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="vertical-line-p our_team col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
                             <h2>Our Team</h2>
 
                             <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
                                 <div class="media-left">
-                                    <img src="img/branibor.jpg" alt="" />
+                                    <img src="img/branibor.jpg" alt=""/>
                                 </div>
                                 <div class="media-body">
                                     <h5 class="media-heading">Branislav Lehotský</h5>
@@ -61,7 +71,7 @@
                             </div>
                             <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
                                 <div class="media-left">
-                                    <img src="img/hodko.jpg" alt="" />
+                                    <img src="img/hodko.jpg" alt=""/>
                                 </div>
                                 <div class="media-body">
                                     <h5 class="media-heading">Tomáš Kočíš</h5>
@@ -70,7 +80,7 @@
                             </div>
                             <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
                                 <div class="media-left">
-                                    <img src="img/jakub.jpg" alt="" />
+                                    <img src="img/jakub.jpg" alt=""/>
                                 </div>
                                 <div class="media-body">
                                     <h5 class="media-heading">Jakub Kmeťko</h5>
@@ -79,7 +89,7 @@
                             </div>
                             <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
                                 <div class="media-left">
-                                    <img src="img/brano.jpg" alt="" />
+                                    <img src="img/brano.jpg" alt=""/>
                                 </div>
                                 <div class="media-body">
                                     <h5 class="media-heading">Branislav Welter</h5>
@@ -88,6 +98,7 @@
                             </div>
 
                         </div>
+                    </div>
 
 
                 </div>

@@ -22,14 +22,21 @@
     .col-custom-img{
         width:50%;
     }
+    .col-custom-img-examples{
+        width:50%;
+    }
+
     .col-custom-text{
         width:100%;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 535px) {
     .col-custom-img{
         width:100%;
+    }
+    .vertical-line-p{
+        padding-left:0px;
     }
     .container{
         min-width:265px;

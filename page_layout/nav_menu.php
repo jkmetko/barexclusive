@@ -3,7 +3,7 @@
         <div class="header_line"></div>
         <div class="navbar-header">
 
-            <a href="index.html"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo"/></a>
+            <a href="index.php"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo"/></a>
         </div>
         <!--.nav -->
         <div class="collapse navbar-collapse">

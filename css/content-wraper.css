@@ -10,6 +10,7 @@
 }
 .vertical-line-p{
     border-left: 2px solid #1C1C1C;
+    padding-left: 20px;
 }
 
 .pr_line {
@@ -65,8 +66,8 @@
     padding:0px 30px;
 }
 
-/************ ABOUT CONTENT **************/
-/****************************************/
+/************ ABOUT BAREX CONTENT **************/
+/***********************************************/
 h1.top {
     background:#000;
     color:#fff;
@@ -81,16 +82,15 @@ h1.top {
     padding:0px 30px 25px;
 }
 
-.about_content>div>div>ul{
+.about_content>div>div>div>ul{
     list-style-type: none;
     color:#ffffff;
     padding:0px 30px;
 }
-.about_content>div>div>ul>li{
+.about_content>div>div>div>ul>li{
     font-style:italic;
     padding:4px;
 }
-
 
 .about_content>div>div>div>p{
     color:#ffffff;
@@ -112,15 +112,65 @@ h1.top {
     margin-bottom: 20px;
     color:white;
 }
-.our_team>div>div>img{
+.our_team>div>div>div>img{
     border: 5px solid #1c1c1c;
 }
-.our_team>div>div>h5{
+.our_team>div>div>div>h5{
     margin-top:10px;
     color:white;
 }
-.our_team>div>div>em{
+.our_team>div>div>div>em{
     font-style: italic;
     color: #7c7c7c;
 }
+.our_team{
+    padding-left:40px;
+}
+.col-custom-text>div>span{
+    margin-left:20px;
+}
 
+/************ ABOUT MIXOLOGY CONTENT **************/
+/**************************************************/
+.list-gallery{
+    list-style-type: none;
+    color:#00AEEF;
+    padding:0px 50px;
+}
+
+.thumbnail-custom{
+    background-color: #000000;
+}
+.thumbnail-custom>img{
+    background-color: #000000;
+    border: 5px solid #1c1c1c;
+}
+
+.about_content>div>div>div>div>h2{
+    color:white;
+    font-size: 20px;
+    margin: 10px 15px;
+}
+
+
+/************ IMAGE ZoomIn EFFECT **************/
+/**************************************************/
+.mg-image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    max-width: 100%;
+}
+.mg-image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+/* just apply some height and width to the wrapper.*/
+.mg-image {
+  overflow: hidden;
+}
