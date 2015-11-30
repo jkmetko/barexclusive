@@ -60,7 +60,7 @@
                         <div class="row">
                             <h2>Our Team</h2>
 
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/branibor.jpg" alt=""/>
                                 </div>
@@ -69,7 +69,7 @@
                                     <em>flair & mixology</em>
                                 </div>
                             </div>
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/hodko.jpg" alt=""/>
                                 </div>
@@ -78,7 +78,7 @@
                                     <em>profesional bartender</em>
                                 </div>
                             </div>
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/jakub.jpg" alt=""/>
                                 </div>
@@ -87,7 +87,7 @@
                                     <em>graphic & systems</em>
                                 </div>
                             </div>
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/brano.jpg" alt=""/>
                                 </div>

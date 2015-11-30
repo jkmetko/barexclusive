@@ -1,6 +1,24 @@
+@media (max-width: 992px) {
+    .vertical-line-p.our_team {
+        border:0;
+    }
+    .pull_middle{
+        display:inline-block;
+        float:none;
+        vertical-align: middle;
+    }
+    .about_flair_img{
+        padding-top:50px;
+    }
+
+}
+
 @media (max-width: 767px){
     #navbar{
         display: none;
+    }
+    .content_wrapper_home{
+        margin-top:15px;
     }
 
     #navbar-mobile{
@@ -8,6 +26,19 @@
     }
     .body_content{
         padding:0px;
+    }
+    .vertical-line-p{
+        border:0;
+        padding:0px;
+    }
+    .col-custom-img-index{
+        width:100%;
+        max-width:336px;
+        margin-left: 30px;
+        /*padding-left:40px;*/
+    }
+    .about_flair_img{
+        padding-top:0px;
     }
 }
 
@@ -18,9 +49,20 @@
 
 }
 
+@media (max-width: 660px) {
+    .vertical-line-p{
+        border:0;
+        padding-left:0px;
+    }
+    .container{
+        min-width:265px;
+    }
+}
+
 @media (max-width: 500px) {
-    .col-custom-img{
-        width:50%;
+
+    .col-custom-img-about{
+        width:100%;
     }
     .col-custom-img-examples{
         width:50%;
@@ -30,16 +72,15 @@
         width:100%;
     }
 }
-
-@media (max-width: 535px) {
-    .col-custom-img{
-        width:100%;
+@media (max-width: 440px) {
+    .col-custom-img-index{
+        margin-left: 0px;
     }
-    .vertical-line-p{
-        padding-left:0px;
+    .home_content>div>div>div>h3{
+        padding:0px;
     }
-    .container{
-        min-width:265px;
+    .home_content>div>div>div>p{
+        padding:0px;
     }
 }
 
@@ -77,4 +118,7 @@
 }
 #navbar-mobile-collapse{
     padding:0px;
+}
+.collapse.in.content_wrapper_home{
+    margin-top:550px;
 }

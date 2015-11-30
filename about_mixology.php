@@ -33,11 +33,11 @@
                         </ul>
                         <!-- Modal1 -->
                         <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
+                            <div class="modal-dialog" role="document" >
                                 <div class="modal-content">
 
                                     <div class="modal-body">
-                                        <img src="img/irish_coffee.jpg" alt=""/>
+                                        <img src="img/irish_coffee.jpg" class="img-responsive" alt=""/>
                                     </div>
 
                                 </div>
@@ -49,7 +49,7 @@
                                 <div class="modal-content">
 
                                     <div class="modal-body">
-                                        <img src="img/B52_drink.jpg" alt=""/>
+                                        <img src="img/B52_drink.jpg" class="img-responsive" alt=""/>
                                     </div>
 
                                 </div>
@@ -61,7 +61,7 @@
                                 <div class="modal-content">
 
                                     <div class="modal-body">
-                                        <img src="img/pearls.jpg" alt=""/>
+                                        <img src="img/pearls.jpg" class="img-responsive" alt=""/>
                                     </div>
 
                                 </div>
@@ -97,12 +97,12 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
-                    <div class="vertical-line-p our_team media col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="vertical-line-p our_team col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="row">
 
                         <h2>Postupy</h2>
 
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/dry_ice.jpg" alt=""/>
                                 </div>
@@ -111,7 +111,7 @@
                                     <em>podchladenie</em>
                                 </div>
                             </div>
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/jello_shots.jpg" alt=""/>
                                 </div>
@@ -120,7 +120,7 @@
                                     <em>želatína</em>
                                 </div>
                             </div>
-                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img">
+                            <div class="media col-xs-6 col-sm-6 col-md-12 col-lg-12 col-custom-img-about">
                                 <div class="media-left">
                                     <img src="img/pena.jpg" alt=""/>
                                 </div>

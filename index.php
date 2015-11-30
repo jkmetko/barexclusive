@@ -10,9 +10,9 @@
 
             <div class="home_content">
                 <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-custom-img">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
-                            <a href="about_mixology.html">
+                            <a href="about_mixology.php">
                                 <img src="img/img_home_1.jpg" height="162" width="336" class="img-responsive" alt=""/>
                             </a>
                         </div>
@@ -21,9 +21,9 @@
 
                         <h2><a href="flip_gallery.html" class="image-subtitle">Mixology</a></h2>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-custom-img">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
-                            <a href="about_prenosnybar.html">
+                            <a href="about_prenosnybar.php">
 
                                 <img src="img/img_home_2.jpg" height="162" width="336" class="img-responsive" alt=""/>
                             </a>
@@ -31,9 +31,9 @@
                         <div class="pr_line" class="img-responsive"></div>
                         <h2><a href="gallery_thumb_nav.html" class="image-subtitle">Portable Bar</a></h2>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-custom-img">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
-                            <a href="about_flairshow.html">
+                            <a href="about_flairshow.php">
                                 <img src="img/img_home_3.jpg" height="162" width="336" class="img-responsive" alt=""/>
                             </a>
                         </div>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-custom-text">
+                    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 col-custom-text">
                         <div class="vertical-line-p">
                             <h3>O BarExclusive</h3>
 
@@ -64,7 +64,7 @@
                                         class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></p>
                         </div>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-custom-text">
+                    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 col-custom-text">
                         <div class="vertical-line-p">
                             <h3>Mixológia</h3>
 

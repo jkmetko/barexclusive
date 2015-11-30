@@ -1,9 +1,9 @@
-<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+<nav id="navbar" class="navbar navbar-inverse ">
     <div class="container">
         <div class="header_line"></div>
         <div class="navbar-header">
 
-            <a href="index.php"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo"/></a>
+            <a href="index.php"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo "/></a>
         </div>
         <!--.nav -->
         <div class="collapse navbar-collapse">
@@ -42,10 +42,10 @@
                             <div class="col-sm-12 col-md-12">
                                 <h3>About us</h3>
 
-                                <li><a href="about_barex.html">BarExclusive</a></li>
-                                <li><a href="about_flairshow.html">Flair show</a></li>
-                                <li><a href="about_prenosnybar.html">Prenosný bar</a></li>
-                                <li><a href="about_mixology.html">Mixológia</a></li>
+                                <li><a href="about_barex.php">BarExclusive</a></li>
+                                <li><a href="about_flairshow.php">Flair show</a></li>
+                                <li><a href="about_prenosnybar.php">Prenosný bar</a></li>
+                                <li><a href="about_mixology.php">Mixológia</a></li>
                             </div>
                         </div>
 
@@ -137,7 +137,7 @@
 
     </div>
 </nav>
-<nav id="navbar-mobile" class="navbar navbar-inverse navbar-fixed-top">
+<nav id="navbar-mobile" class="navbar navbar-inverse">
     <div class="container">
         <div class="header_line"></div>
         <div class="navbar-header">
@@ -149,13 +149,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.php"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo"/></a>
+            <a href="index.php"><img src="img/logo.png" width="188" height="89" alt="Logo" class="img_logo img-responsive"/></a>
         </div>
 
         <!--/.nav-collapse MOBILE-->
         <div id="navbar-mobile-collapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
 
                     <ul class="dropdown-menu">
@@ -189,10 +189,10 @@
                             <div class="col-sm-12 col-md-12">
                                 <h3>About us</h3>
 
-                                <li><a href="about_barex.html">BarExclusive</a></li>
-                                <li><a href="about_flairshow.html">Flair show</a></li>
-                                <li><a href="about_prenosnybar.html">Prenosný bar</a></li>
-                                <li><a href="about_mixology.html">Mixológia</a></li>
+                                <li><a href="about_barex.php">BarExclusive</a></li>
+                                <li><a href="about_flairshow.php">Flair show</a></li>
+                                <li><a href="about_prenosnybar.php">Prenosný bar</a></li>
+                                <li><a href="about_mixology.php">Mixológia</a></li>
                             </div>
                         </div>
 

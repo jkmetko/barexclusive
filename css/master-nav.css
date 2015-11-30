@@ -16,7 +16,7 @@ body {
 
 }
 .img_logo{
-  position:fixed;
+  position:absolute;
   z-index: 10000;
 }
 .p_logo_2{
@@ -29,10 +29,12 @@ body {
 .navbar-inverse{
   background-color: transparent;
   border-color: transparent;
+  margin-top:-50px;
 }
-.navbar-fixed-top{
-  top:6px;
+.navbar-collapse{
+  padding-right:0px;
 }
+
 .navbar-inverse .navbar-nav>li>a:focus{
   color:#9d9d9d;
   background-color:#101010;
