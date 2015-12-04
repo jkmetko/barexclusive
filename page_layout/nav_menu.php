@@ -21,7 +21,7 @@
                             </div>
                             <div class="col-sm-4 col-md-4">
                                 <h3>Projekty</h3>
-                                <li><a href="project1.html">Aktuálne</a></li>
+                                <li><a href="project1.php">Aktuálne</a></li>
                                 <li><a href="#">Predchádzajúce</a></li>
 
                             </div>
@@ -67,7 +67,7 @@
                             <div class="col-sm-4 col-md-4">
                                 <h3>Contact</h3>
                                 <li><a href="contacts.php">Napíšte správu</a></li>
-                                <li><a href="contacts.php#map">Pozrite si na mape</a></li>
+                                <li><a href="contacts.php?section=map">Pozrite si na mape</a></li>
                             </div>
                         </div>
                     </ul>
@@ -168,7 +168,7 @@
                             </div>
                             <div class="col-sm-4 col-md-4">
                                 <h3>Projekty</h3>
-                                <li><a href="project1.html">Aktuálne</a></li>
+                                <li><a href="project1.php">Aktuálne</a></li>
                                 <li><a href="#">Predchádzajúce</a></li>
 
                             </div>
@@ -213,7 +213,7 @@
                             <div class="col-sm-4 col-md-4">
                                 <h3>Contact</h3>
                                 <li><a href="contacts.php">Napíšte správu</a></li>
-                                <li><a href="contacts.php#map">Pozrite si na mape</a></li>
+                                <li><a href="contacts.php?section=map">Pozrite si na mape</a></li>
                             </div>
                         </div>
                     </ul>

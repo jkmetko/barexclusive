@@ -50,6 +50,8 @@
                                 komplexné
                                 riešenia
                                 pre barovú scénu, alebo produkty, ktoré ozvláštnia firemné i súkromné akcie a oslavy.
+                                <br />
+                                <br />
                                 <span class="horizontal-line"></span>
 
                                 Ponúkame možnosť prenájmu prenosného baru, so všetkým, čo k tomu patrí. Od zabezpečenia

@@ -1,0 +1,24 @@
+
+ul.navigation_project {
+    list-style:none;
+	text-align: right;
+	padding-top: 10px;
+}
+ul.navigation_project li {
+	display:inline-block;
+	background:url(../img/circle.png) no-repeat center center;padding:10px 15px;
+	color:#999;
+}
+ul.navigation_project li a {
+	text-decoration:none;
+	color:#999;
+
+}
+ul.navigation_project li a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
+
+
+

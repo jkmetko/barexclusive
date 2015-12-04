@@ -20,6 +20,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="css/master-nav.css">
     <link rel="stylesheet" type="text/css" href="css/content-wraper.css">
+    <link rel="stylesheet" type="text/css" href="css/style_horizontal.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reset.css">
 
 </head>

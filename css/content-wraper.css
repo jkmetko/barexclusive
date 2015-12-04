@@ -158,13 +158,168 @@ h1.top {
     margin:30px 0px 0px 10px;
 
 }
-
 .about_flair_h2{
     padding-left:20px;
 }
 
 
+/************ PROJECT *********************/
+/******************************************/
+.project_img{
+    padding:40px 20px;
+}
+.project_img_hover:hover{
+    cursor:pointer;
+}
+.zoom_portfolio{
+    display:none;
+}
+.project_img_hover:hover .zoom_portfolio{
+    display:block;
+}
+.zoom_portfolio img{
+    position: absolute;
+    z-index: 100;
+    width:68px;
+    height:68px;
+    left:46%;
+    top:45%;
+}
 
+.vertical-line-p-project{
+    border-left: 2px solid #333333;
+    margin-top: 40px;
+}
+.about_content>div>div>div>p.project_paragraph{
+    padding:0px 30px 10px 30px;
+}
+
+
+/************ Ribbon for images of projects **************/
+/*********************************************************/
+.ribbon {
+    position:absolute;
+    width:96px;
+    height:58px;
+    top:36px;
+    right:30px;
+    z-index:200;
+    background: url(../img/ribbon.png) no-repeat;
+}
+
+/************ CONTACTS INFO ***************/
+/******************************************/
+.contacts-info{
+    padding:20px 20px;
+}
+.contacts-info>p{
+    color:#ffffff;
+    padding-top:10px;
+}
+#address {
+    background: url(../img/icon_address.png) no-repeat right 5px;
+}
+#email {
+    background: url(../img/icon_email.png) no-repeat right 5px;
+}
+#phone {
+    background: url(../img/icon_phone.png) no-repeat right 5px;
+}
+#web {
+    background: url(../img/icon_web.png) no-repeat right 5px;
+}
+
+/* form styles ================================================================================= */
+.col_f_1 {
+
+}
+label {
+    color:#fff;
+    margin-top:10px;
+    display:block;
+    font-weight:bold;
+    font-size:14px;
+    margin-bottom:3px;
+}
+fieldset {
+    border:none;
+}
+#myform fieldset.col_f_1 input,#myform fieldset.col_f_2 input {
+    padding:8px;
+    margin:2px 0 5px 0;
+    background:#333;
+    width:100%;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#dfdfdf;
+    font-size:12px;
+    border:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+#myform textarea {
+    padding:8px;
+    margin:2px 0 5px 0;
+    background:#333;
+    width:100%;
+    font-size:12px;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#dfdfdf;
+    border:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    height:70px;
+}
+#myform textarea:focus {
+    padding:8px;
+    margin:2px 0 5px 0;
+    background:#ccc;
+    width:100%;
+    font-size:12px;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#222;
+    border:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    height:70px;
+}
+#myform fieldset.col_f_1 input:focus,#myform fieldset.col_f_2 input:focus,#myform input:focus {
+    padding:8px;
+    margin:2px 0 5px 0;
+    background:#ccc;
+    border:none;
+    color:#222;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+}
+/* error message */
+.error {
+    background-color: #FC0;
+    font-size:11px;
+    padding:1px 5px;
+    color:#000;
+    width:110px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin:0 0 10px 0;
+}
+.send_bt {
+    background:url(../img/send_message.png) no-repeat;
+    width:123px;
+    height:38px;
+    text-indent:-9999px;
+    display:block;
+    margin:190px 15px 0px;
+    border:none;
+    cursor: pointer;
+}
+#myform{
+    padding-right: 20px;
+}
 
 
 /************ IMAGE ZoomIn EFFECT **************/
