@@ -26,7 +26,7 @@ $(document).ready(function() {
     $(window).resize(HoverNavMethod);
 
 });
-
+/*
 $(document).ready(function(){
     $('.project_img_hover').mouseenter(function() {
         $(this).stop().fadeTo(400,0.6);
@@ -37,6 +37,8 @@ $(document).ready(function(){
     });
 
 });
+*/
+
 
 
 

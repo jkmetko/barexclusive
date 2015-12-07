@@ -2,6 +2,9 @@
     .vertical-line-p.our_team {
         border:0;
     }
+    .vertical-line-p.contacts {
+        border:0;
+    }
     .pull_middle{
         display:inline-block;
         float:none;

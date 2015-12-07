@@ -24,6 +24,15 @@
                             Za rozšírené využitie tohto prístupu k nápojom sa dá považovať vrstvenie na základe hustoty.
                             Najznámejšími príkladmi sú:
                         </p>
+
+                        <ul>
+                            <li><a href="img/irish_coffee.jpg" class="box"><span class="glyphicon glyphicon-menu-right"></span>Viedenská
+                                    káva</a></li>
+                            <li><a href="img/B52_drink.jpg" class="box"><span class="glyphicon glyphicon-menu-right"></span>B52</a></li>
+                            <li><a href="img/pearls.jpg" class="box"><span class="glyphicon glyphicon-menu-right"></span>Cointreau
+                                    Pearls</a></li>
+                        </ul>
+                        <!--
                         <ul class="list-gallery">
                             <li><a href="" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-menu-right"></span>Viedenská
                                     káva</a></li>
@@ -31,7 +40,7 @@
                             <li><a href="" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-menu-right"></span>Cointreau
                                     Pearls</a></li>
                         </ul>
-                        <!-- Modal1 -->
+
                         <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                             <div class="modal-dialog" role="document" >
                                 <div class="modal-content">
@@ -43,7 +52,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Modal2 -->
+
                         <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -55,7 +64,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Modal3 -->
+
                         <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -67,6 +76,7 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                         <p>
                             Ďalším levelom je zmena fyzických vlastností nápoja. Okrem využitia vyššie spomenutej
                             želatíny, peny, či rozprašovania nápoja pomocou spreja sa prihliada na tepelnú úpravu
@@ -173,4 +183,38 @@
 </div><!-- /end container-->
 
 
-<?php include('page_layout/footer.php'); ?>
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<!-- fancy box img viewer -->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen" />
+
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+
+        $("a.box").fancybox({
+            'titleShow'		: true,
+            'transitionIn'	: 'elastic',
+            'transitionOut'	: 'elastic',
+            'titlePosition'	: 'over',
+            'overlayOpacity': '0.8',
+            'overlayColor': '#000'
+        });
+
+        $("a[rel=group]").fancybox({
+            'transitionIn'		: 'none',
+            'transitionOut'		: 'none',
+            'titlePosition' 	: 'over',
+            'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+            }
+        });
+    });
+
+</script>
+
+</body>
+</html>

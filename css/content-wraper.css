@@ -168,14 +168,29 @@ h1.top {
 .project_img{
     padding:40px 20px;
 }
+
+.project_img_hover{
+    opacity:1;
+    transition:opacity 1s ease;
+}
 .project_img_hover:hover{
     cursor:pointer;
+    opacity:0.7;
 }
 .zoom_portfolio{
-    display:none;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s linear 0.5s,opacity 0.5s linear;
 }
-.project_img_hover:hover .zoom_portfolio{
-    display:block;
+.zoom_portfolio:hover{
+    cursor:pointer;
+}
+
+.project_img:hover .zoom_portfolio{
+    visibility:visible;
+    opacity:1;
+    transition-delay:0s;
+    /*display:block;*/
 }
 .zoom_portfolio img{
     position: absolute;
@@ -192,6 +207,10 @@ h1.top {
 }
 .about_content>div>div>div>p.project_paragraph{
     padding:0px 30px 10px 30px;
+}
+
+.share {
+    margin-top:-35px;
 }
 
 
@@ -215,6 +234,7 @@ h1.top {
 .contacts-info>p{
     color:#ffffff;
     padding-top:10px;
+    min-width: 210px;
 }
 #address {
     background: url(../img/icon_address.png) no-repeat right 5px;

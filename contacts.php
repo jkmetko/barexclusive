@@ -23,11 +23,11 @@
                                 ?>
                                 <form method="post" id="myform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                                     <br/>
-                                    <fieldset class="col_f_1 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <fieldset class="col_f_1 col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <label style="margin-top:0">Meno</label><input name="Name" type="text"
                                                                                        class="required"/>
                                     </fieldset>
-                                    <fieldset class="col_f_1 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <fieldset class="col_f_1 col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <label style="margin-top:0">Email</label><input name="Email" type="text"
                                                                                         class="required email"/>
                                     </fieldset>
@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
-                        <div class="row vertical-line-p col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row vertical-line-p col-xs-12 col-sm-12 col-md-12 col-lg-12 contacts">
 
                             <div class="contacts-info">
                                 <p id="address" class="navigation_contacts"><strong>Cesta na Kamzík 37/B, 83101</strong> <br/>
