@@ -13,7 +13,8 @@
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
                             <a href="about_mixology.php">
-                                <img src="img/img_home_1.jpg" height="162" width="336" class="img-responsive" alt=""/>
+                                <img src="img/img_home_1.jpg" height="162" width="336" class="img-responsive index-images" alt=""/>
+                                <span class="bg"><img src="img/project_details.png" alt=""/></span>
                             </a>
                         </div>
 
@@ -25,7 +26,8 @@
                         <div class="mg-image">
                             <a href="about_prenosnybar.php">
 
-                                <img src="img/img_home_2.jpg" height="162" width="336" class="img-responsive" alt=""/>
+                                <img src="img/img_home_2.jpg" height="162" width="336" class="img-responsive index-images" alt=""/>
+                                <span class="bg"><img src="img/project_details.png" alt=""/></span>
                             </a>
                         </div>
                         <div class="pr_line" class="img-responsive"></div>
@@ -34,7 +36,8 @@
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
                             <a href="about_flairshow.php">
-                                <img src="img/img_home_3.jpg" height="162" width="336" class="img-responsive" alt=""/>
+                                <img src="img/img_home_3.jpg" height="162" width="336" class="img-responsive index-images" alt=""/>
+                                <span class="bg"><img src="img/project_details.png" alt=""/></span>
                             </a>
                         </div>
                         <div class="pr_line" class="img-responsive"></div>

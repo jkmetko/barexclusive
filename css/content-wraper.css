@@ -344,7 +344,7 @@ fieldset {
 
 /************ IMAGE ZoomIn EFFECT **************/
 /**************************************************/
-.mg-image img {
+.mg-image .index-images {
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -o-transition: all 1s ease; /* IE 9 */
@@ -352,12 +352,40 @@ fieldset {
     transition: all 1s ease;
     max-width: 100%;
 }
-.mg-image:hover img {
+.mg-image:hover .index-images {
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
     transform:scale(1.25);
+    opacity:0.6;
+}
+.mg-image .bg{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.mg-image:hover .bg{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+
+}
+.bg {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    background:url(../img/portfolio_hover_bg.png) no-repeat top center;
+    position: absolute;
+    top:20%;
+    left:40%;
+    display: none;
 }
 /* just apply some height and width to the wrapper.*/
 .mg-image {

@@ -120,8 +120,6 @@
 </div><!-- /end container-->
 
 
-<script src="bootstrap/jquery.min.js"></script>
-<script src="bootstrap/bootstrap.min.js"></script>
 <!-- fancy box img viewer -->
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen"/>

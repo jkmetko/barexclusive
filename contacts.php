@@ -148,9 +148,6 @@
     </div>
 </div><!-- /end container-->
 
-<script src="bootstrap/jquery.min.js"></script>
-<script src="bootstrap/bootstrap.min.js"></script>
-
 <script src="js/custom.js"></script>
 <script type="text/javascript">
     $(function () {
