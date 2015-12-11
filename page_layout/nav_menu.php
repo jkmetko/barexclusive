@@ -15,7 +15,7 @@
                         <div class="row">
                             <div class="col-sm-4 col-md-4">
                                 <h3>Photo galeria</h3>
-                                <li><a href="gallery_thumb_nav.html">Akcie</a></li>
+                                <li><a href="gallery_thumb_nav.php">Akcie</a></li>
                                 <li><a href="flip_gallery.html">Drinky</a></li>
                                 <li><a href="gallery_supersize.html">Inšpirácia</a></li>
                             </div>
@@ -162,7 +162,7 @@
                         <div class="row">
                             <div class="col-sm-4 col-md-4">
                                 <h3>Photo galeria</h3>
-                                <li><a href="gallery_thumb_nav.html">Akcie</a></li>
+                                <li><a href="gallery_thumb_nav.php">Akcie</a></li>
                                 <li><a href="flip_gallery.html">Drinky</a></li>
                                 <li><a href="gallery_supersize.html">Inšpirácia</a></li>
                             </div>
