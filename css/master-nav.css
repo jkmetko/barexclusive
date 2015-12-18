@@ -1,5 +1,18 @@
+.slide {
+  position: relative;
+}
+.slide .inner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
 body {
   padding-top: 50px;
+  background: #000;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .starter-template {
   padding: 40px 15px;

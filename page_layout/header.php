@@ -39,7 +39,7 @@
                             {url:"images/supersize/3.jpg"}
                         ],
                         duration:   6,
-                        fade:       3,
+                        fade:       1,
                         scaling:    false,
                         rotating:   false,
                         overlay:    "images/pattern.png"

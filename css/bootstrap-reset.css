@@ -60,22 +60,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .characters {
-        left: 10%;
-        width: 480px;
-        height: 400px;
-        transition: 2.5s;
-    }
-    .characters-list {
-        font: 700 25px "PT Sans Narrow";
-    }
-    .characters-poster {
-        height: 340px;!important;
-        width: 200px;
-        cursor: pointer;
-    }
-}
 
 @media (max-width: 660px) {
     .vertical-line-p{
