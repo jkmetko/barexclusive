@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="css/style_horizontal.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reset.css">
 
+    <!-- Flip gallery css -->
+    <link rel="stylesheet" href="css/flip_gallery.css" type="text/css" media="screen"/>
+
     <!-- jQuery -->
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
@@ -68,9 +71,7 @@
         });
     </script>
 
-
-
-
+    <link rel="SHORTCUT ICON" href="img/ico.jpg">
 </head>
 
 <body>

@@ -29,7 +29,7 @@
     <!-- jQuery -->
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
-
+    <link rel="SHORTCUT ICON" href="img/ico.jpg">
 
 </head>
 
@@ -37,12 +37,22 @@
 
 <?php include('page_layout/nav_menu.php'); ?>
 
-<div class="container body_content ">
+<div class="container body_content">
+</div>
 
+<div class="container-fluid">
     <div class="characters ">
         <div class="characters-poster"></div>
         <div class="characters-label"></div>
         <ul class="characters-list">
+            <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
+            <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
+            <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
+            <li><a class="a_custom" href="#" data-character="">Joseph Gordon-Lewitt</a></li>
+            <li><a class="a_custom" href="#" data-character="">Eva Green</a></li>
+            <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
+            <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
+            <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
             <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
             <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
             <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
