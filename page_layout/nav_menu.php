@@ -66,7 +66,7 @@
                             </div>
                             <div class="col-sm-4 col-md-4">
                                 <h3>Contact</h3>
-                                <li><a href="contacts.php">Napíšte správu</a></li>
+                                <li><a href="contacts.php?section=contact">Napíšte správu</a></li>
                                 <li><a href="contacts.php?section=map">Pozrite si na mape</a></li>
                             </div>
                         </div>
@@ -163,8 +163,8 @@
                             <div class="col-sm-4 col-md-4">
                                 <h3>Photo galeria</h3>
                                 <li><a href="gallery_thumb_nav.php">Akcie</a></li>
-                                <li><a href="flip_gallery.html">Drinky</a></li>
-                                <li><a href="gallery_supersize.html">Inšpirácia</a></li>
+                                <li><a href="flip_gallery.php">Drinky</a></li>
+                                <li><a href="gallery_supersize.php">Inšpirácia</a></li>
                             </div>
                             <div class="col-sm-4 col-md-4">
                                 <h3>Projekty</h3>
@@ -212,7 +212,7 @@
                             </div>
                             <div class="col-sm-4 col-md-4">
                                 <h3>Contact</h3>
-                                <li><a href="contacts.php">Napíšte správu</a></li>
+                                <li><a href="contacts.php?section=contact">Napíšte správu</a></li>
                                 <li><a href="contacts.php?section=map">Pozrite si na mape</a></li>
                             </div>
                         </div>

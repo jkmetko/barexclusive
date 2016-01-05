@@ -14,7 +14,7 @@
     -->
 
     <!-- Vegas -->
-    <link rel="stylesheet" href="css/demo2.css">
+    <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="js/vegas/vegas.min.css">
 
 
@@ -29,7 +29,23 @@
     <!-- jQuery -->
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="SHORTCUT ICON" href="img/ico.jpg">
 
+    <script type="text/javascript">
+        $(document).ready(function() {
+            function LoadPage() {
+
+                if ($(window).width() <= 767) {
+                    window.location.replace('gallery_thumb_mobile.php');
+                }
+            }
+            LoadPage();
+            // bind resize event
+            $(window).resize(LoadPage);
+
+        });
+
+    </script>
 
 </head>
 
@@ -37,28 +53,35 @@
 
 <?php include('page_layout/nav_menu.php'); ?>
 
-<div class="container body_content" style="height: 100%">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-        <div class="characters">
-            <div class="characters-poster col-xs-6 col-sm-6 col-md-3 col-lg-3 "></div>
-            <div class="characters-label"></div>
-            <ul class="characters-list col-xs-6 col-sm-6 col-md-3 col-lg-3 ">
-                <li><a href="#" data-character="">Jessica Alba</a></li>
-                <li><a href="#" data-character="">Mickey Roorke</a></li>
-                <li><a href="#" data-character="">Josh Brolin</a></li>
-                <li><a href="#" data-character="">Joseph Gordon-Lewitt</a></li>
-                <li><a href="#" data-character="">Eva Green</a></li>
-                <li><a href="#" data-character="">Bruce Willis</a></li>
-                <li><a href="#" data-character="">Rosarion Dawson</a></li>
-                <li><a href="#" data-character="">Powers Boothe</a></li>
+<div class="container body_content">
+</div>
 
-            </ul>
+<div class="container-fluid">
+    <div class="characters ">
+        <div class="characters-poster"></div>
+        <div class="characters-label"></div>
+        <ul class="characters-list">
+            <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
+            <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
+            <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
+            <li><a class="a_custom" href="#" data-character="">Joseph Gordon-Lewitt</a></li>
+            <li><a class="a_custom" href="#" data-character="">Eva Green</a></li>
+            <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
+            <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
+            <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
+            <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
+            <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
+            <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
+            <li><a class="a_custom" href="#" data-character="">Joseph Gordon-Lewitt</a></li>
+            <li><a class="a_custom" href="#" data-character="">Eva Green</a></li>
+            <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
+            <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
+            <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
 
-        </div>
+        </ul>
+
     </div>
-    <div class="logo col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img  src="img/logo2.png"/>
-    </div>
+    <img class="logo" src="img/logo2.png"/>
 </div>
 
 
@@ -68,30 +91,7 @@
 <script src="js/custom.js"></script>
 
 <script type="text/javascript">
-    /*
-     $(document).ready(function () {
 
-     $("#example, body").vegas({
-     delay: 7000,
-     preload: false,
-     timer: false,
-     shuffle: true,
-     transition: 'slideDown2',
-     transitionDuration: 2000,
-     slides: [
-     { src: "images/thumb_nav/album/1.jpg" },
-     { src: "images/thumb_nav/album/2.jpg" },
-     { src: "images/thumb_nav/album/3.jpg" },
-     { src: "images/thumb_nav/album/4.jpg" },
-     { src: "images/thumb_nav/album/6.jpg" },
-     { src: "images/thumb_nav/album/7.jpg" },
-     { src: "images/thumb_nav/album/8.jpg" },
-     { src: "images/thumb_nav/album/9.jpg" },
-     { src: "images/thumb_nav/album/10.jpg" }
-     ]
-     });
-     });
-     */
 </script>
 
 </body>

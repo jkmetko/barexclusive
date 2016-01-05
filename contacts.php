@@ -2,7 +2,7 @@
 <?php include('page_layout/nav_menu.php'); ?>
 
 <div class="container-fluid body_content section-transition-wrapper">
-    <div id="section1" class="section-transition container active">
+    <div id="section1" class="section-transition container ">
 
         <div class="content_wrapper_home">
             <div class="about_content">

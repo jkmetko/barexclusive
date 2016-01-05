@@ -1,8 +1,8 @@
 <?php include('page_layout/header.php'); ?>
 <?php include('page_layout/nav_menu.php'); ?>
 
-<div class="container body_content custom-content-body" xmlns="http://www.w3.org/1999/html">
-    <div id="section1" class="section">
+<div class="container-fluid body_content custom-content-body section-transition-wrapper" xmlns="http://www.w3.org/1999/html">
+    <div id="section1" class="section-transition section container active">
         <div class="content_wrapper_home">
 
             <div class="about_content">
@@ -55,12 +55,12 @@
             </div><!-- /end home_content-->
         </div><!-- /end ontent_wrapper_home-->
         <ul class="navigation_project">
-            <li style="color: #fff;">1</li>
-            <li><a href="#section2">2</a></li>
+            <li>1</li>
+            <li style="color: #fff;" ><a href="#" class="section-transition-left">2</a></li>
         </ul>
     </div>
 
-    <div id="section2" class="section" style="display: none;">
+    <div id="section2" class="section-transition section container">
         <div class="content_wrapper_home">
 
             <div class="about_content">
@@ -112,8 +112,8 @@
             </div><!-- /end home_content-->
         </div><!-- /end ontent_wrapper_home-->
         <ul class="navigation_project">
-            <li><a href="#section1">1</a></li>
-            <li style="color: #fff;">2</li>
+            <li style="color: #fff;" ><a href="#" class="section-transition-right">1</a></li>
+            <li>2</li>
         </ul>
     </div>
 
@@ -125,24 +125,10 @@
 <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen"/>
 
 <script src="js/custom.js"></script>
+<script src="js/section-transition-project.js"></script>
+
 <script type="text/javascript">
-    $(function () {
-        $('ul.navigation_project a').bind('click', function (event) {
-            var $anchor = $(this);
-            $('div.container #section2').animate({
-                    height: 'toggle'
-                }, 1800
-            );
-            $('div.container #section1').animate({
-                    height: 'toggle'
-                }, 1800
-            );
-        });
-    });
-
     $(document).ready(function () {
-
-
         $("a.box").fancybox({
             'titleShow': true,
             'transitionIn': 'elastic',
@@ -151,7 +137,6 @@
             'overlayOpacity': '0.8',
             'overlayColor': '#000'
         });
-
         $("a[rel=group]").fancybox({
             'transitionIn': 'none',
             'transitionOut': 'none',
@@ -161,8 +146,6 @@
             }
         });
     });
-
 </script>
-
 </body>
 </html>

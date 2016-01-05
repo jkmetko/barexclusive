@@ -6,15 +6,30 @@
 function positionSections( sections ) {
     var wWidth = $(window).width();
 
-    sections.first().css({
-        left: (wWidth / 2) - (sections.first().width() / 2),
-        'z-index': 2
+    $.urlParam = function(name){
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results==null){
+            return null;
+        }
+        else{
+            return results[1] || 0;
+        }
+    }
+
+    //alert($.urlParam('section'));
+    if($.urlParam('section') == "contact"){
+        $('#section1').addClass("active");
+    }else{
+        $('#section2').addClass("active");
+    }
+
+    sections.filter('.active').css({
+        left: (wWidth / 2) - (sections.first().width() / 2)-15,
     });
 
     sections.not('.active').each(function( index ) {
         $(this).css({
             left: wWidth*(index+1) + 'px',
-            'z-index': 1
         });
     });
 };
@@ -30,10 +45,7 @@ function moveSections( direction, sections ){
     var offset = movement = sections.eq( 1 ).position().left - sections.eq( 0 ).position().left;
 
     sections.each(function( index ){
-        var sWidth = $(this).width();
         var sign = (direction == 'left' ? '-' : '+');
-
-        //movement = (wWidth/2) - (sWidth/2);
         console.log(offset);
 
         $(this).animate({

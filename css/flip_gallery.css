@@ -22,7 +22,7 @@
 	z-index:10;
 	display:none;
 	width:370px;
-	height:85px;
+	height:135px;
 	padding:20px;
 	background:url(../img/bg_black_85.png) repeat;
 	border-bottom:3px solid #fff;
@@ -34,11 +34,16 @@
 	display:block;
 	margin-bottom:10px;
 	letter-spacing:-1px;
+	margin-top: -10px;
 }
 .tf_content h2 span {
 	color:#ccc;
 	font-size:22px;
-	display:block
+	display:block;
+	margin-top: -2px;
+}
+.tf_content p {
+	color:#ccc;
 }
 
 

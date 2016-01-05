@@ -5,9 +5,9 @@
     <div id="tf_loading" class="tf_loading"></div>
     <div id="tf_bg" class="tf_bg">
         <img src="images/flip_gallery/1.jpg" alt="Image 1" longdesc="images/flip_gallery/thumbs/1.jpg"/>
-        <img src="images/flip_gallery/1.jpg" alt="Image 3" longdesc="images/flip_gallery/thumbs/2.jpg"/>
-        <img src="images/flip_gallery/2.jpg" alt="Image 2" longdesc="images/flip_gallery/thumbs/3.jpg"/>
-        <img src="images/flip_gallery/4.jpg" alt="Image 6" longdesc="images/flip_gallery/thumbs/4.jpg"/>
+        <img src="images/flip_gallery/2.jpg" alt="Image 3" longdesc="images/flip_gallery/thumbs/2.jpg"/>
+        <img src="images/flip_gallery/3.jpg" alt="Image 2" longdesc="images/flip_gallery/thumbs/3.jpg"/>
+        <img src="images/flip_gallery/4.jpg" alt="Image 6" longdesc="images/flip_gallery/thumbs/1.jpg"/>
         <img src="images/flip_gallery/5.jpg" alt="Image 5" longdesc="images/flip_gallery/thumbs/5.jpg"/>
         <img src="images/flip_gallery/1.jpg" alt="Image 4" longdesc="images/flip_gallery/thumbs/1.jpg"/>
     </div>

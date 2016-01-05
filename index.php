@@ -20,7 +20,7 @@
 
                         <div class="pr_line" class="img-responsive"></div>
 
-                        <h2><a href="flip_gallery.html" class="image-subtitle">Mixology</a></h2>
+                        <h2><a href="flip_gallery.php" class="image-subtitle">Mixology</a></h2>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
@@ -31,7 +31,7 @@
                             </a>
                         </div>
                         <div class="pr_line" class="img-responsive"></div>
-                        <h2><a href="gallery_thumb_nav.html" class="image-subtitle">Portable Bar</a></h2>
+                        <h2><a href="gallery_thumb_nav.php" class="image-subtitle">Portable Bar</a></h2>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
@@ -41,7 +41,7 @@
                             </a>
                         </div>
                         <div class="pr_line" class="img-responsive"></div>
-                        <h2><a href="gallery_supersize.html" class="image-subtitle">Flair Show</a></h2>
+                        <h2><a href="gallery_supersize.php" class="image-subtitle">Flair Show</a></h2>
                     </div>
                 </div>
                 <div class="row">

@@ -64,7 +64,7 @@
 				});
 				
 					//expand and fit the image to the screen
-					$('#tf_zoom').live('click',
+					$('body').on('click', '#tf_zoom',
 						function(){
 						if($tf_bg_img.is(':animated'))
 							return false;

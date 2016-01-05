@@ -12,12 +12,6 @@
     <!--
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     -->
-
-    <!-- Vegas -->
-    <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="js/vegas/vegas.min.css">
-
-
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
@@ -25,81 +19,34 @@
     <link rel="stylesheet" type="text/css" href="css/content-wraper.css">
     <link rel="stylesheet" type="text/css" href="css/style_horizontal.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+
+    <!-- Flip gallery css -->
+    <link rel="stylesheet" href="css/flip_gallery.css" type="text/css" media="screen"/>
 
     <!-- jQuery -->
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/jsBackgroundSlideshow/jquery.sublimeSlideshow.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            function LoadPage() {
+
+                if ($(window).width() > 767) {
+                    window.location.replace('gallery_thumb.php');
+                }
+                else{
+                    window.location.replace('gallery_thumb_mobile.php');
+                }
+            }
+            LoadPage();
+            // bind resize event
+            $(window).resize(LoadPage);
+
+        });
+
+    </script>
+
     <link rel="SHORTCUT ICON" href="img/ico.jpg">
-
 </head>
-
-<body>
-
-<?php include('page_layout/nav_menu.php'); ?>
-
-<div class="container body_content">
-</div>
-
-<div class="container-fluid">
-    <div class="characters ">
-        <div class="characters-poster"></div>
-        <div class="characters-label"></div>
-        <ul class="characters-list">
-            <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
-            <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
-            <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
-            <li><a class="a_custom" href="#" data-character="">Joseph Gordon-Lewitt</a></li>
-            <li><a class="a_custom" href="#" data-character="">Eva Green</a></li>
-            <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
-            <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
-            <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
-            <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
-            <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
-            <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
-            <li><a class="a_custom" href="#" data-character="">Joseph Gordon-Lewitt</a></li>
-            <li><a class="a_custom" href="#" data-character="">Eva Green</a></li>
-            <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
-            <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
-            <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
-
-        </ul>
-
-    </div>
-    <img class="logo" src="img/logo2.png"/>
-</div>
-
-
-<script src="js/vegas/vegas.min.js"></script>
-<script src="js/vegas/demo.js"></script>
-
-<script src="js/custom.js"></script>
-
-<script type="text/javascript">
-    /*
-     $(document).ready(function () {
-
-     $("#example, body").vegas({
-     delay: 7000,
-     preload: false,
-     timer: false,
-     shuffle: true,
-     transition: 'slideDown2',
-     transitionDuration: 2000,
-     slides: [
-     { src: "images/thumb_nav/album/1.jpg" },
-     { src: "images/thumb_nav/album/2.jpg" },
-     { src: "images/thumb_nav/album/3.jpg" },
-     { src: "images/thumb_nav/album/4.jpg" },
-     { src: "images/thumb_nav/album/6.jpg" },
-     { src: "images/thumb_nav/album/7.jpg" },
-     { src: "images/thumb_nav/album/8.jpg" },
-     { src: "images/thumb_nav/album/9.jpg" },
-     { src: "images/thumb_nav/album/10.jpg" }
-     ]
-     });
-     });
-     */
-</script>
-
-</body>
-</html>
