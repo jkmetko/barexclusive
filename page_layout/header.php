@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/content-wraper.css">
     <link rel="stylesheet" type="text/css" href="css/style_horizontal.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
 
     <!-- Flip gallery css -->
     <link rel="stylesheet" href="css/flip_gallery.css" type="text/css" media="screen"/>

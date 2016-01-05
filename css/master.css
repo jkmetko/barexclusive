@@ -1,0 +1,9 @@
+/*----SECTION TRANSITION EFFECT---------*/
+.section-transition-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-transition{
+    position: absolute;
+}

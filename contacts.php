@@ -1,8 +1,8 @@
 <?php include('page_layout/header.php'); ?>
 <?php include('page_layout/nav_menu.php'); ?>
 
-<div class="container body_content">
-    <div id="section1">
+<div class="container-fluid body_content section-transition-wrapper">
+    <div id="section1" class="section-transition container active">
 
         <div class="content_wrapper_home">
             <div class="about_content">
@@ -71,13 +71,13 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="row vertical-line-p col-xs-12 col-sm-12 col-md-12 col-lg-12 contacts">
 
                             <div class="contacts-info">
                                 <p id="address" class="navigation_contacts"><strong>Cesta na Kamzík 37/B, 83101</strong> <br/>
                                     Bratislava, Koliba <br/>Slovakia<br/>
-                                    <a href="#">Pozrite na mape <span class="glyphicon glyphicon-arrow-right"
+                                    <a href="#" class="section-transition-left">Pozrite na mape <span class="glyphicon glyphicon-arrow-right"
                                                                       aria-hidden="true"></span></a>
                                     <span class="horizontal-line"></span>
                                 </p>
@@ -110,7 +110,7 @@
             </div><!-- /end content_wrapper_home-->
         </div>
     </div>
-    <div id="section2" style="display: none;">
+    <div id="section2" class="section-transition container">
         <div class="content_wrapper_home">
 
             <div class="about_content">
@@ -135,7 +135,7 @@
                         <p style="color:#999">
                             Cesta na Kamzík 37/B, 831 01, Bratislava
                         </p>
-                        <a href="#">Kontaktujte nás <span class="glyphicon glyphicon-arrow-right"
+                        <a href="#" class="section-transition-right">Kontaktujte nás <span class="glyphicon glyphicon-arrow-right"
                                                           aria-hidden="true"></span></a>
 
                     </div>
@@ -149,26 +149,8 @@
 </div><!-- /end container-->
 
 <script src="js/custom.js"></script>
-<script type="text/javascript">
-    $(function () {
-        var section=document.URL.split('section')[1];
-        if (section == '=map') {
-            $('div.container #section2').css('display', 'block');
-            $('div.container #section1').css('display', 'none');
-        }
-        $('.navigation_contacts a').bind('click', function (event) {
-            var $anchor = $(this);
-            $('div.container #section2').animate({
-                    height: 'toggle'
-                }, 2000
-            );
-            $('div.container #section1').animate({
-                    height: 'toggle'
-                }, 2000
-            );
-        });
-    });
-</script>
+<script src="js/section-transition.js"></script>
+
 
 </body>
 </html>
