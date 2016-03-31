@@ -36,15 +36,15 @@
                                         <label>Sprava</label><textarea name="Message" class="required" cols=""
                                                                        rows=""></textarea>
                                     </fieldset>
-                                    <button type="submit" class="send_bt">Send Message</button>
+                                    <button type="submit" class="send_bt">Odoslať Správu</button>
                                 </form>
                                 <?php
                             } else {
                                 ?>
                                 <!-- START SEND MAIL SCRIPT -->
                                 <div align="center">
-                                    <p><strong>Email bol �spe�ne odposlan�.</strong><br/>Na Va�u spr�vu budeme re�gova�
-                                        do nieko�k�ch hod�n.</p>
+                                    <p><strong>Email bol úspešne odoslaný.</strong><br/>Na Vašu správu budeme reágovať
+                                        do niekoľkých hodín.</p>
                                 </div>
 
                                 <?php
@@ -75,20 +75,20 @@
                         <div class="row vertical-line-p col-xs-12 col-sm-12 col-md-12 col-lg-12 contacts">
 
                             <div class="contacts-info">
-                                <p id="address" class="navigation_contacts"><strong>Cesta na Kamzík 37/B, 83101</strong> <br/>
-                                    Bratislava, Koliba <br/>Slovakia<br/>
+                                <p id="address" class="navigation_contacts"><strong>Hudecová 2723, 841 04</strong> <br/>
+                                    Bratislava <br/>Slovakia<br/>
                                     <a href="#" class="section-transition-left">Pozrite na mape <span class="glyphicon glyphicon-arrow-right"
                                                                       aria-hidden="true"></span></a>
                                     <span class="horizontal-line"></span>
                                 </p>
 
-                                <p id="phone"><strong>managment:</strong> <br/>
-                                    00421 902 285842<br/>
+                                <p id="phone"><strong>Branislav Lehotský:</strong> <br/>
+                                    +421 911 584 878<br/>
                                     <span class="horizontal-line"></span>
                                 </p>
 
-                                <p id="phone"><strong>bar:</strong> <br/>
-                                    00421 917 676000<br/>
+                                <p id="phone"><strong>Lukáš Gerhát:</strong> <br/>
+                                    +421 905 353 268<br/>
                                     <span class="horizontal-line"></span>
                                 </p>
 
@@ -116,7 +116,7 @@
             <div class="about_content">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h1 class="top">Where we are</h1>
+                        <h1 class="top">Kde sa nachádzame</h1>
                         <span class="horizontal-line"></span>
                     </div>
 
@@ -124,16 +124,10 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 navigation_contacts">
                         <p></p>
-                        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                src="http://maps.google.com/maps/ms?msa=0&amp;msid=201329224454885838200.0004a6db0cd2337d826ba&amp;ie=UTF8&amp;ll=48.169449,17.103417&amp;spn=0,0&amp;t=h&amp;output=embed"
-                                style="margin-bottom:5px;">
-                        </iframe>
+                        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.8896273558767!2d17.054969015180774!3d48.15093305821039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8b97ad0d0657%3A0x2d481f0d02674929!2sHudecova+2723%2C+841+04+Karlova+Ves!5e0!3m2!1ssk!2ssk!4v1458841724716" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                         <br/>
-                        <small style="float:right"><a
-                                href="http://maps.google.com/maps/ms?msa=0&amp;msid=201329224454885838200.0004a6db0cd2337d826ba&amp;ie=UTF8&amp;ll=48.169449,17.103417&amp;spn=0,0&amp;iwloc=0004a6db1466d82e8f8d9&amp;source=embed"
-                                style="text-align:right">Zobraziť celú mapu</a></small>
                         <p style="color:#999">
-                            Cesta na Kamzík 37/B, 831 01, Bratislava
+                            Hudecová 2723, 841 04, Bratislava
                         </p>
                         <a href="#" class="section-transition-right">Kontaktujte nás <span class="glyphicon glyphicon-arrow-right"
                                                           aria-hidden="true"></span></a>

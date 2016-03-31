@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Barexclusive</title>
     <!--
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     -->
@@ -69,15 +69,6 @@
             <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
             <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
             <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
-            <li><a class="a_custom" href="#" data-character="">Jessica Alba</a></li>
-            <li><a class="a_custom" href="#" data-character="">Mickey Roorke</a></li>
-            <li><a class="a_custom" href="#" data-character="">Josh Brolin</a></li>
-            <li><a class="a_custom" href="#" data-character="">Joseph Gordon-Lewitt</a></li>
-            <li><a class="a_custom" href="#" data-character="">Eva Green</a></li>
-            <li><a class="a_custom" href="#" data-character="">Bruce Willis</a></li>
-            <li><a class="a_custom" href="#" data-character="">Rosarion Dawson</a></li>
-            <li><a class="a_custom" href="#" data-character="">Powers Boothe</a></li>
-
         </ul>
 
     </div>

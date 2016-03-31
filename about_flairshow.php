@@ -63,6 +63,33 @@
                 </div>
             </div>
 
+            <div class="row" style="color: #fff">
+                <div class="col-md-12">
+                    <h2>V rámci Flair Show Vám ponúkame:</h2>
+
+                    <ul class="media-list">
+                        <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span>
+                            Tréningový program pre barmanov
+                        </li>
+                        <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span>
+                            Fyzika vo flaši
+                        </li>
+                        <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span>
+                            Freepuring
+                        </li>
+                        <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span>
+                            Working Flair
+                        </li>
+                        <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span>
+                            Exibicia
+                        </li>
+                        <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span>
+                            Kondičný Trening
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
 
         </div><!-- /end home_content-->
     </div><!-- /end ontent_wrapper_home-->

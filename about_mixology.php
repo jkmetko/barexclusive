@@ -7,7 +7,7 @@
         <div class="about_content">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1 class="top">About BarExclusive</h1>
+                    <h1 class="top">O BarExclusive</h1>
                     <span class="horizontal-line"></span>
                 </div>
 

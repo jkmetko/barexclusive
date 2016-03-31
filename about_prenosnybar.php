@@ -7,7 +7,7 @@
         <div class="about_content">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1 class="top">About FlairShow</h1>
+                    <h1 class="top">O Prenosnom Bare</h1>
                     <span class="horizontal-line"></span>
                 </div>
 
@@ -32,8 +32,6 @@
                             čašníčky, hostesky, flair alebo fire show, či zostavenie nápojového lístka na mieru pre Vašu
                             akciu. Špecialitou večera taktiež može byť UV show.
                         </p>
-
-                        <h2 class="about_flair_h2">Ponúkame</h2>
                     </div>
 
 
@@ -42,19 +40,19 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 
+                    <h2 class="about_flair_h2" style="color: #fff">Pripravujeme</h2>
+
                     <div class="row ">
 
 
                         <ul class="media-list">
-                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Profesionálny barmani - možnosť priplatenia Flair, Fire, alebo UV show
+                            <li><span class="glyphico glyphicon glyphicon-ok" style="color:green;"></span> Mobilný bar pre lode na Dunaji
                             </li>
-                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Profesionálne čašníčky a hostesky
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Mobilný bar na plesovú sezónu
                             </li>
-                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Nápojový lístok namieru - so špecialitami z oblasti Mixológie
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Mobilný bar pre firemne akcie
                             </li>
-                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Kompletné zabezpečenie alka, nealka
-                            </li>
-                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Prenájom priestorov (vrátane plážových)
+                            <li><span class="glyphicon glyphicon glyphicon-ok" style="color:green;"></span> Mobilný bar na kinder párty (milkshake,limonady,smoothy,čaje nealko koktaily)
                             </li>
                         </ul>
 

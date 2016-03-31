@@ -20,7 +20,7 @@
 
                         <div class="pr_line" class="img-responsive"></div>
 
-                        <h2><a href="flip_gallery.php" class="image-subtitle">Mixology</a></h2>
+                        <h2><a href="flip_gallery.php" class="image-subtitle">Mixológia</a></h2>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
@@ -31,7 +31,7 @@
                             </a>
                         </div>
                         <div class="pr_line" class="img-responsive"></div>
-                        <h2><a href="gallery_thumb_nav.php" class="image-subtitle">Portable Bar</a></h2>
+                        <h2><a href="gallery_thumb_nav.php" class="image-subtitle">Mobilný Bar</a></h2>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-custom-img-index">
                         <div class="mg-image">
@@ -47,23 +47,25 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 col-custom-text">
                         <div class="vertical-line-p">
-                            <h3>O BarExclusive</h3>
+                            <h3>O Barexclusive</h3>
 
-                            <p>BarExclusive reprezentuje luxus. Ide o značku zastrešujúcu portfólio služieb - či už
-                                komplexné
-                                riešenia
-                                pre barovú scénu, alebo produkty, ktoré ozvláštnia firemné i súkromné akcie a oslavy.
-                                <br />
-                                <br />
+                            <p>
+                                Barexclusive je značka, zastrešujúca originálne miešané nápoje vo vašom príjemnom prostredí.
+                                Servis tejto značky je zárukou kvality, vždy výnimočnej show a zážitku z nadštandardného servisu.
+                                Značka vznikla na základe reálnych skúseností z nočného ale  aj denného života barmanov, ktorí si od samotného začiatku potrpeli na profesionálny kontakt za akýmkoľvek barom.
+                                <br>
+                                <br>
+                                Sme priekopníkmi v spojení barovej alchýmie a mixológie s voľným štýlom známym ako Flairbartending.
+                                Našu fantáziu prenášame s láskou priamo do práce, čo pocítite hneď pri prvom kontakte.
+                                Chuť, vôňa, pohľad  a jedinečný spôsob podania sú zárukou čarovného večera, na ktorý len tak nezabudnete.
+                                <br>
+                                <br>
                                 <span class="horizontal-line"></span>
-
-                                Ponúkame možnosť prenájmu prenosného baru, so všetkým, čo k tomu patrí. Od zabezpečenia
-                                dopravy
-                                a
-                                zloženia baru, cez zostavenie individuálneho nápojového lístka (s mixologickými
-                                špecialitami),
-                                až po
-                                dosadenie profesionálnych barmanov a hostesiek.</p>
+                                <br>
+                                <br>
+                                Stačí ochutnať a zažiť ....
+                                Barexclusive Vám odmieša akýkoľvek večierok.mobilný bar zaručí dostupnosť kamkoľvek a profi barman si flexibilne poradí s ostatnými náležitosťami.snazime sa zameriavať na akcie osobnejsieho razu a nie masové aby bol nápoj aj dôkladne odprezentovaný.
+                            </p>
 
                             <p><a href="about_barex.php" class="details">Čítaj viac <span
                                         class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></p>
@@ -73,14 +75,37 @@
                         <div class="vertical-line-p">
                             <h3>Mixológia</h3>
 
-                            <p>Mixologia spaja vedecky pristup k ingredienciam na molekulárnej úrovni s dlhodobymi
+                            <p>
+                                Mixologia spaja vedecky pristup k ingredienciam na molekulárnej úrovni s dlhodobymi
                                 skusenostami
                                 barmana.
-                                Remeslo sa tak znovu povyšuje na umenie.</p>
+                                Remeslo sa tak znovu povyšuje na umenie.
+                            </p>
 
                             <p><a href="about_mixology.php">Čítaj viac <span class="glyphicon glyphicon-arrow-right"
                                                                              aria-hidden="true"></span></a></p>
 
+                        </div>
+                        <div class="vertical-line-p">
+                            <h3>Mobilný bar</h3>
+
+                            <p>
+                                Ušetrite si námahu a ozvláštnite svoju akciu prenájmom profesionálneho prenosného baru.
+                                Ponúkame Vám široký sortiment tématických barov, ktoré sadnú do Vašich priestorov ako na mieru.
+                            </p>
+
+                            <p><a href="about_prenosnybar.php">Čítaj viac <span class="glyphicon glyphicon-arrow-right"
+                                                                             aria-hidden="true"></span></a></p>
+                        </div>
+                        <div class="vertical-line-p">
+                            <h3>Flair show</h3>
+
+                            <p>
+                                Lietajúce flašky, či oheň na barovom pulte zaručene oživia každú akciu.
+                            </p>
+
+                            <p><a href="about_flairshow.php">Čítaj viac <span class="glyphicon glyphicon-arrow-right"
+                                                                             aria-hidden="true"></span></a></p>
                         </div>
                     </div>
                 </div>
